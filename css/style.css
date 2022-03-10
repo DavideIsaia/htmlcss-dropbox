@@ -29,7 +29,7 @@ a {
     color: inherit;
 }
 
-/* buttons */
+/* bottoni */
 .button {
     display: inline-block;
     text-align: center;
@@ -37,15 +37,14 @@ a {
     font-size: 1em;
 }
 
-/* button colors */
-.btn-white {
-    background-color: white;
-    color: black;
-}
-
 .btn-blue {
     background-color: #0061ff;
     color: white;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
 }
 
 /* header */
@@ -81,6 +80,7 @@ header {
 
 .header-menu li {
     display: inline-block;
+    height: 80px;
     margin: 0 0.5em;
 }
 
@@ -102,9 +102,6 @@ header .button {
 .container-large {
     width: 82%;
     margin: 0 auto;
-    /* debug */
-    background-color: beige;
-    height: 200px;
 }
 
 /* jumbotron */
@@ -114,15 +111,37 @@ header .button {
 }
 
 h1 {
-    /* debug */
-    background-color: black;
-    height: 100px;
+    font-size: 4em;
+    line-height: 1.5em;
+    padding: 1.5em 0 0.5em;
 }
 
-.j-text {
-    /* debug */
-    background-color: goldenrod;
-    height: 100px;
+.j-float {
+    float: left;
+    width: 40%;
+    padding-right: 2em;
+}
+
+main .container-large .button {
+    margin: 2em 0 1em;
+}
+
+main .container-large img {
+    width: 60%;
+    float: left;
+}
+
+.big {
+    width: 60%;
+}
+
+.small {
+    width: 40%;
+}
+
+h2 {
+    margin: 1.5em 0 1em;
+    font-size: 2em;
 }
 
 /* debug */
