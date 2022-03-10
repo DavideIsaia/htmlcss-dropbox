@@ -29,11 +29,16 @@ a {
     color: inherit;
 }
 
+h2 {
+    margin: 4em 0 1em;
+    font-size: 2.2em;
+}
+
 /* bottoni */
 .button {
     display: inline-block;
     text-align: center;
-    padding: 0.5em 1.1em;
+    padding: 0.5em 1.2em;
     font-size: 1em;
 }
 
@@ -111,7 +116,7 @@ header .button {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 1.5em;
     padding: 1.5em 0 0.5em;
 }
@@ -131,62 +136,78 @@ main .container-large img {
     float: left;
 }
 
-.big {
-    width: 60%;
+/* abbonamento */
+.abbonamento li {
+    display: inline-block;
+    margin: 0 0.5em;
 }
 
-.small {
-    width: 40%;
+.abb-cln {
+    float: left;
+    border: 1px solid gray;
+    margin-top: 3em;
+    width: calc(92% / 3);
+    height: 1000px;
 }
 
-h2 {
-    margin: 1.5em 0 1em;
-    font-size: 2em;
+.abbonamento :nth-child(4) {
+    margin: 3em 4% 0;
 }
 
-/* debug */
-.abbonamento {
-    background-color: darkgray;
-    height: 600px;
+.abb-enterprise {
+    float: left;
+    border: 1px solid gray;
+    margin-top: 3em;
+    width: 100%;
+    height: 200px;
 }
 
-.enterprise {
-    background-color: darkblue;
-    height: 600px;
-}
-
+/* partner */
 .partner{
+    /* debug */
     background-color: darkslategrey;
     height: 600px;
 }
 
+/* operazioni */
 .operazioni {
+    /* debug */
     background-color: darkkhaki;
     height: 600px;
 }
 
+/* clienti */
 .clienti {
+    /* debug */
     background-color: darkolivegreen;
     height: 600px;
 }
 
+/* blocchi */
 .blocchi {
+    /* debug */
     background-color: darkorange;
     height: 600px;
 }
 
+/* prova-gratis */
 .prova-gratis {
+    /* debug */
     background-color: #b4d0e7;
     height: 600px;
 }
 
+/* faq */
 .faq {
+    /* debug */
     background-color: darkslateblue;
     height: 600px;
 }
 
+/* footer */
 footer {
     background-color: black;
+    /* debug */
     height: 400px;
 }
 
