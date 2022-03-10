@@ -37,14 +37,36 @@ header {
 }
 
 /* main */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-large {
+    width: 82%;
+    margin: 0 auto;
+    /* debug */
+    background-color: beige;
+    height: 200px;
+}
+
+/* jumbotron */
 .jumbotron {
     background-color: #b4d0e7;
     height: 700px;
 }
 
-.container {
-    width: 60%;
-    margin: 0 auto;
+h1 {
+    /* debug */
+    background-color: black;
+    height: 100px;
+}
+
+.j-text {
+    /* debug */
+    background-color: goldenrod;
+    height: 100px;
 }
 
 /* debug */
