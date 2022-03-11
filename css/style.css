@@ -267,10 +267,15 @@ main .container-large img {
 
 /* clienti */
 .clienti {
-    /* debug */
-    background-color: darkolivegreen;
-    height: 600px;
+    padding-right: 20%;
+    padding-bottom: 3em;
 }
+
+.clienti a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
 
 /* blocchi */
 .blocchi {
