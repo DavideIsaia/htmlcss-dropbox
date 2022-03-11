@@ -285,10 +285,21 @@ main .container-large img {
 }
 
 /* prova-gratis */
-.prova-gratis {
-    /* debug */
+.bg-azzurro {
     background-color: #b4d0e7;
-    height: 600px;
+}
+
+.prova-gratis h2 {
+    float: left;
+    color: #61082b;
+    width: 50%;
+    padding-bottom: 2em;
+}
+
+.prova-gratis a {
+    float: right;
+    width: 35%;
+    margin-top: 8em;
 }
 
 /* faq */
