@@ -7,6 +7,7 @@
     <title>Dropbox</title>
     <!-- styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -74,7 +75,7 @@
 
             <!-- titolo e lista -->
             <h2>Trova il piano Dropbox Business che fa per te</h2>
-            <ul>
+            <ul class="fatturazione">
                 <li>
                     <input type="radio" name="sel"> Fatturazione mensile
                 </li>
@@ -85,11 +86,13 @@
 
             <!-- sezione a colonne -->
             <div class="abb-cln">
-                <div class="nome-piano">Singolo</div>
+                <div class="nome-piano">
+                    <i class="far fa-user"></i> Singolo
+                </div>
                 <div class="cln-top">
                     <h3>Standard</h3>
                     <h4>9,99 €</h4>
-                    <div>/mese</div>
+                    <div class="text">/mese</div>
                     
                 </div>
 
@@ -99,11 +102,13 @@
             </div>
 
             <div class="abb-cln">
-                <div class="nome-piano">Team</div>
+                <div class="nome-piano">
+                    <i class="far fa-building"></i> Team
+                </div>
                 <div class="cln-top">
                     <h3>Professional</h3>
                     <h4>19,99 €</h4>
-                    <div>/utente /mese, a partire da 3 utenti</div>
+                    <div class="text">/utente /mese, a partire da 3 utenti</div>
                 </div>
 
                 <div class="cln-bottom">
@@ -112,22 +117,32 @@
             </div>
 
             <div class="abb-cln">
-                <div class="nome-piano">Team</div>
+                <div class="nome-piano">
+                    <i class="far fa-building"></i> Team
+                </div>
                 <div class="cln-top">
                     <h3>Advanced</h3>
                     <h4>29,99 €</h4>
-                    <div>/utente /mese, a partire da 8 utenti</div>
+                    <div class="text">/utente /mese, a partire da 8 utenti</div>
                 </div>
 
                 <div class="cln-bottom">
+                    
 
                 </div>
             </div>
 
             <!-- sezione enterprise -->
             <div class="abb-enterprise">
-
-
+                <div class="nome-piano">
+                    <i class="far fa-building"></i> Team
+                </div>
+                <div class="cln-top">
+                    <h3>Enterprise</h3>
+                    <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                    <div class="text">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</div>
+                </div>
+                <a class="button btn-blue" href="">Contatta l'ufficio vendite</a>
             </div>
         </section>
 
