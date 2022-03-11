@@ -173,7 +173,7 @@ main .container-large img {
 
 .abb-cln {
     float: left;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin-top: 3em;
     width: calc(92% / 3);
     min-height: 1000px;
@@ -203,8 +203,45 @@ main .container-large img {
     font-size: 0.8em;
 }
 
-.cln-top .text {
-    border-bottom: 1px solid black;
+.border {
+    font-size: 0.8em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2em;
+}
+
+.vantaggi {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.vantaggi h4 {
+    margin-bottom: 1em;
+}
+
+.cln-bottom {
+    width: 90%; 
+    margin: 0 auto;
+    padding: 1em; 
+}
+
+.van-check {
+    float: left;
+    width: 5%;
+    font-weight: bold;
+    line-height: 1em;
+    color: #0061ff;
+}
+
+.van-text {
+    float: left;
+    width: calc(95% - 0.6em);
+    margin-bottom: 1.5em;
+    margin-left: 0.6em;
+    font-size: 0.8em;
+}
+
+.vantaggi li {
+    margin: 0.5em 0;
 }
 
 .abbonamento .center-cln {
@@ -215,7 +252,7 @@ main .container-large img {
     text-align: center;
     vertical-align: middle;
     line-height: 2.5em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .abb-icon {
@@ -234,7 +271,7 @@ main .container-large img {
 
 .abb-enterprise {
     float: left;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin-top: 3em;
     width: 100%;
 }
