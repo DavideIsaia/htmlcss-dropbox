@@ -303,10 +303,21 @@ main .container-large img {
 }
 
 /* faq */
-.faq {
-    /* debug */
-    background-color: darkslateblue;
-    height: 300px;
+.faq h3 {
+    padding: 4em 0 1.8em;
+    font-size: 2em;
+}
+
+.faq li {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2em 0;
+    border-top: 2px solid #bbbbbb;
+}
+
+.faq li:last-child {
+    border-bottom: 2px solid #bbbbbb;
+    margin-bottom: 6em;
 }
 
 /* footer */
