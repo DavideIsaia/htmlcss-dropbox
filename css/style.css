@@ -211,10 +211,28 @@ main .container-large img {
 }
 
 /* partner */
-.partner{
-    /* debug */
-    background-color: darkslategrey;
-    height: 600px;
+.partner {
+    margin-top: 7em;
+}
+
+.p-left {
+    width: 55%;
+    float: left;
+}
+
+.p-right {
+    width: 45%;
+    float: left;
+    padding-top: 3em;
+    padding-left: 3em;
+}
+
+.p-right .text {
+    margin: 2.5em auto;
+}
+
+.p-right .button {
+    border: 1px solid black;
 }
 
 /* operazioni */
@@ -258,4 +276,3 @@ footer {
     /* debug */
     height: 400px;
 }
-
