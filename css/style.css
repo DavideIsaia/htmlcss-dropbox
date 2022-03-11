@@ -17,8 +17,23 @@ html {
     clear: both;
 }
 
+.container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-large {
+    position: relative;
+    bottom: -80px;
+    width: 82%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
+    object-fit: cover; 
 }
 
 ul {
@@ -124,22 +139,6 @@ header .button {
     display: inline;
 }
 
-/* main */
-
-.container {
-    width: 70%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.container-large {
-    position: relative;
-    bottom: -80px;
-    width: 82%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /* jumbotron */
 .jumbotron {
     background-color: #b4d0e7;
@@ -241,11 +240,25 @@ main .container-large img {
     border: 1px solid black;
 }
 
-/* operazioni */
-.operazioni {
-    /* debug */
-    background-color: darkkhaki;
-    height: 600px;
+/* operazioni business */
+.strumento {
+    margin: 2em 0;
+    position:relative;
+    float: left;
+    width: calc(92% / 3);
+}
+
+.op-top {
+    float: left;
+}
+
+.op-bottom {
+    float: left;
+    margin-top: 1em;
+}
+
+.op-bottom p {
+    margin-top: 2em;
 }
 
 /* clienti */
