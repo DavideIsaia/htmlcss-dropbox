@@ -185,11 +185,29 @@ main .container-large img {
     padding: 1em; 
 }
 
+.cln-top .text {
+    padding-bottom: 4em;
+}
+
  .cln-top h3, h4 {
     line-height: 2.2em;
 }
 
-.abbonamento :nth-child(4) {
+.cln-top .button {
+    margin: 2em 0;
+}
+
+.buy {
+    text-decoration: underline;
+    color: #0061ff;
+    font-size: 0.8em;
+}
+
+.cln-top .text {
+    border-bottom: 1px solid black;
+}
+
+.abbonamento .center-cln {
     margin: 3em 4% 0;
 }
 
@@ -211,6 +229,7 @@ main .container-large img {
     width: calc(92% - 0.2em);
     margin-bottom: 1.5em;
     margin-left: 0.2em;
+    font-size: 0.8em;
 }
 
 .abb-enterprise {
@@ -300,7 +319,7 @@ main .container-large img {
     height: 200px;
 }
 
-/* prova-gratis */
+/* prova gratuita */
 .bg-azzurro {
     background-color: #b4d0e7;
 }
