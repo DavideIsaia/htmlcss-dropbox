@@ -313,8 +313,7 @@ main .container-large img {
 footer {
     background-color: black;
     color: white;
-    /* debug */
-    height: 400px;
+    height: 450px;
 }
 
 .col-menu {
@@ -327,4 +326,15 @@ footer {
 
 .footer-menu li {
     margin-top: 0.6em;
+}
+
+.footer-menu li:last-child {
+    padding-bottom: 3em;
+}
+
+.footer-bottom {
+    padding: 3em 0;
+    color: #999999;
+    border-top:2px solid #676767;
+    width: 10%;
 }
