@@ -45,6 +45,11 @@ a {
     color: inherit;
 }
 
+.col {
+    float: left;
+    min-width: 10%;
+}
+
 h1 {
     font-size: 4.5em;
     line-height: 1.5em;
@@ -102,11 +107,6 @@ nav {
 .logo img {
     vertical-align: middle;
     width: auto;
-}
-
-.col {
-    float: left;
-    min-width: 10%;
 }
 
 .col-left {
@@ -281,7 +281,7 @@ main .container-large img {
 .blocchi {
     /* debug */
     background-color: darkorange;
-    height: 600px;
+    height: 200px;
 }
 
 /* prova-gratis */
@@ -306,12 +306,25 @@ main .container-large img {
 .faq {
     /* debug */
     background-color: darkslateblue;
-    height: 600px;
+    height: 300px;
 }
 
 /* footer */
 footer {
     background-color: black;
+    color: white;
     /* debug */
     height: 400px;
+}
+
+.col-menu {
+    width: calc(100%/5);
+}
+
+.col-menu h4 {
+    padding-bottom: 1em;
+}
+
+.footer-menu li {
+    margin-top: 0.6em;
 }
