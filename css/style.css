@@ -365,7 +365,6 @@ main .container-large img {
 .sq-col {
     float: left;
     width: 30%;
-    height: 500px;
 }
 
 .sq-row {
@@ -377,8 +376,13 @@ main .container-large img {
     float: left;
     position: relative;
     width: 50%;
-    height: 100%;
 }
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
 
 .square img {
     position: absolute;
@@ -410,11 +414,12 @@ main .container-large img {
 /* colonna centrale */
 .sq-col-mid {
     float: left;
+    position: relative;
     width: 40%;
-    height: 500px;
     background-color: #f5f5f5;
     padding: 2em 3em;
 }
+
 
 .sq-mid-logo {
     min-width: 30px;
