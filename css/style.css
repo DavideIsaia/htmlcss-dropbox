@@ -362,10 +362,86 @@ main .container-large img {
 
 
 /* blocchi */
-.blocchi {
-    /* debug */
-    background-color: darkorange;
-    height: 200px;
+.sq-col {
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+.sq-row {
+    width: 100%;
+    height: calc(100% / 2);
+}
+
+.square {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.square img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    filter: invert(100%);
+}
+
+/* colonna sinistra */
+.sq-green {
+    background-color: #a2d39b;
+    border: .8em solid #d0e9cd;
+}
+
+.sq-purple {
+    background-color: #61082b;
+}
+
+.sq-sky {
+    background-color: #0093ce;
+}
+
+.sq-fire {
+    background-color: #ff1c1c;
+}
+
+/* colonna centrale */
+.sq-col-mid {
+    float: left;
+    width: 40%;
+    height: 500px;
+    background-color: #f5f5f5;
+    padding: 2em 3em;
+}
+
+.sq-mid-logo {
+    width: 20%;
+    padding-bottom: 3em;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 4em;
+}
+
+.overflow {
+    overflow: scroll;
+}
+
+/* colonna destra */
+.sq-red {
+    background-color: #d5001f;
+}
+
+.sq-azzurro {
+    background-color: #b4d0e7;
+}
+
+.sq-blue {
+    background-color: #0d2481;
+}
+
+.sq-yellow {
+    background-color: #ffd830;
 }
 
 /* prova gratuita */
