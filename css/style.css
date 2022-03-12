@@ -417,6 +417,7 @@ main .container-large img {
 }
 
 .sq-mid-logo {
+    min-width: 30px;
     width: 20%;
     padding-bottom: 3em;
     border-bottom: 1px solid lightgrey;
@@ -424,7 +425,7 @@ main .container-large img {
 }
 
 .overflow {
-    overflow: scroll;
+    overflow: auto;
 }
 
 /* colonna destra */
