@@ -86,9 +86,17 @@ h4 {
     color: white;
 }
 
+.btn-blue:hover {
+    background-color: #3c87ff;
+}
+
 .btn-white {
     background-color: white;
     color: black;
+}
+
+.btn-white:hover {
+    background-color: #eeeeee;
 }
 
 /* header */
@@ -202,6 +210,10 @@ main .container-large img {
     text-decoration: underline;
     color: #0061ff;
     font-size: 0.8em;
+}
+
+.buy:hover {
+    text-decoration: none;
 }
 
 .border {
@@ -345,8 +357,7 @@ main .container-large img {
 }
 
 .clienti a {
-    text-decoration: underline;
-    color: #0061ff;
+    font-size: 1em;
 }
 
 
@@ -410,6 +421,10 @@ footer {
 
 .footer-menu li {
     margin-top: 0.6em;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
 }
 
 .footer-menu li:last-child {
