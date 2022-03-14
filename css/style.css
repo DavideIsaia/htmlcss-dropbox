@@ -490,6 +490,7 @@ input[type="radio"]:checked:hover {
 }
 
 /* faq */
+
 .faq h3 {
     padding: 4em 0 1.8em;
     font-size: 2em;
@@ -500,6 +501,11 @@ input[type="radio"]:checked:hover {
     font-weight: bold;
     padding: 2em 0;
     border-top: 2px solid #bbbbbb;
+}
+
+.faq i {
+    float: right;
+    padding-right: 3em;
 }
 
 .faq li:last-child {
