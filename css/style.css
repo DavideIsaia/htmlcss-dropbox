@@ -110,6 +110,7 @@ nav {
     background-color: white;
     width: 100%;
     z-index: 100;
+    border-bottom: 1px solid lightgray;
 }
 
 .logo img {
@@ -179,6 +180,25 @@ main .container-large img {
 .fatturazione li {
     display: inline-block;
     margin: 0 0.5em;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;  
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border: 3px solid #0061ff;
+}
+
+input[type="radio"]:checked:hover {
+    border: 3px solid #3c87ff;
 }
 
 .abb-cln {
