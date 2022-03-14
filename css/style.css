@@ -115,6 +115,7 @@ nav {
 .logo img {
     vertical-align: middle;
     width: auto;
+    padding-left: 10%;
 }
 
 .col-left {
@@ -134,6 +135,7 @@ nav {
 
 .header-menu li {
     display: inline-block;
+    vertical-align: middle;
     height: 80px;
     margin: 0 0.5em;
 }
@@ -419,7 +421,6 @@ main .container-large img {
     background-color: #f5f5f5;
     padding: 2em 3em;
 }
-
 
 .sq-mid-logo {
     min-width: 30px;
