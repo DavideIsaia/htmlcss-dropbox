@@ -154,13 +154,14 @@ nav {
 
 .sub-menu {
     position: absolute;
-    top: 100%;
+    top: 103%;
     left: -50%;
     padding: 0.5em;
     text-align: center;
     font-size: 0.9em;
     background-color: white;
-    display: none;  
+    display: none;
+    border: 1px solid lightgray;
 }
 
 .sub-menu li {
