@@ -543,6 +543,47 @@ input[type="radio"]:checked:hover {
     padding-right: 3em;
 }
 
+.faq-hover {
+    display: none;
+    padding-right: 10em;
+    margin-top: 1em;
+    color: lightgrey;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.faq h4 {
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.question:hover .faq-hover {
+    display: inline-block;
+}
+
+.question:hover .fas-1 {
+    display: none;
+}
+
+.question:hover .fas-hover {
+    display: inline;
+}
+
+.fas-1 {
+    display: inline;
+}
+
+.fas-hover {
+    display: none;
+}
+
+.question {
+    padding: 1em;
+    padding-left: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
 .faq li:last-child {
     border-bottom: 2px solid #bbbbbb;
     margin-bottom: 6em;
