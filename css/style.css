@@ -531,16 +531,22 @@ input[type="radio"]:checked:hover {
     font-size: 2em;
 }
 
+.faq h4 {
+    font-size: 1.2em;
+    margin: 1em 0;
+    line-height: 1.2em;
+}
+
 .faq li {
     font-size: 1em;
     font-weight: bold;
-    padding: 2em 0;
+    padding: 1em 0;
     border-top: 2px solid #bbbbbb;
 }
 
 .faq i {
     float: right;
-    padding-right: 3em;
+    padding-right: 2em;
 }
 
 .faq-hover {
@@ -550,12 +556,6 @@ input[type="radio"]:checked:hover {
     color: lightgrey;
     font-weight: 500;
     font-size: 0.9em;
-}
-
-.faq h4 {
-    color: black;
-    font-size: 1.2em;
-    margin-bottom: 2em;
 }
 
 .question:hover .faq-hover {
@@ -579,8 +579,6 @@ input[type="radio"]:checked:hover {
 }
 
 .question {
-    padding: 1em;
-    padding-left: 0;
     border-bottom: 1px solid lightgrey;
 }
 
