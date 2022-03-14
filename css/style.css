@@ -134,7 +134,7 @@ nav {
     width: 10%;
 }
 
-.header-menu li {
+.header-menu > li {
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -148,9 +148,40 @@ nav {
     line-height: 80px;
 }
 
-.header-menu a:hover {
+.header-menu > li:hover {
     border-bottom: 2px solid #0061ff;
 }
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: white;
+    display: none;  
+}
+
+.sub-menu li {
+    height: 30px;
+    margin: 0.5em 0;
+}
+
+.sub-menu a {
+    line-height: 30px;
+}
+
+.sub-menu li:hover {
+    background-color: #eeeeee;
+}
+
+.header-menu li:hover > .sub-menu {
+    display: block;
+    width: 300%;
+    line-height: 30px;
+}
+
 
 header .button {
     display: inline;
