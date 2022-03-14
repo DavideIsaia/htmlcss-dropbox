@@ -135,14 +135,20 @@ nav {
 }
 
 .header-menu li {
+    position: relative;
     display: inline-block;
     vertical-align: middle;
     height: 80px;
     margin: 0 0.5em;
+    border-bottom: 2px transparent;
 }
 
-.header-menu li:hover {
-    cursor: pointer;
+.header-menu a {
+    display: inline-block;
+    line-height: 80px;
+}
+
+.header-menu a:hover {
     border-bottom: 2px solid #0061ff;
 }
 
